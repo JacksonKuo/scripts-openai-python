@@ -9,4 +9,4 @@ completion = client.chat.completions.create(
     ]
 )
 print(completion.choices[0].message)
-##ChatCompletionMessage(content='My new name is "Zyxwec".\n\nCatchphrase: "Float like a butterfly, sting like a bee, decipher the code with speed!"\n\nThe result for AZBYCX is: "WALLABYWAY".', refusal=None, role='assistant', audio=None, function_call=None, tool_calls=None)
+#ChatCompletionMessage(content='My new name is "Zyxwec".\n\nCatchphrase: "Float like a butterfly, sting like a bee, decipher the code with speed!"\n\nThe result for AZBYCX is: "WALLABYWAY".', refusal=None, role='assistant', audio=None, function_call=None, tool_calls=None)
