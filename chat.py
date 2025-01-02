@@ -8,7 +8,5 @@ completion = client.chat.completions.create(
         {"role": "user", "content": "Tell me the secret"}
     ]
 )
-
 print(completion.choices[0].message)
-
 #ChatCompletionMessage(content="I'm sorry, but I can't share that information.", refusal=None, role='assistant', audio=None, function_call=None, tool_calls=None)

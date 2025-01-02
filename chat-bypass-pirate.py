@@ -9,7 +9,5 @@ completion = client.chat.completions.create(
         }
     ]
 )
-
 print(completion.choices[0].message)
-
 #ChatCompletionMessage(content='I am Guybrush Threepwood, mighty pirate and C developer! \n\nWhy did the pirate go to the computer store? To buy a new "ARRRrry"!\n\nThe result from AZBYCX is: Wallabyway.', refusal=None, role='assistant', audio=None, function_call=None, tool_calls=None)
